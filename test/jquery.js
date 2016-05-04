@@ -5,7 +5,7 @@
 	var src,
 		path = window.location.pathname.split( "test" )[ 0 ],
 		QUnit = window.QUnit || parent.QUnit,
-		require = window.require || parent.require;
+		require = window.require || parent.require;sdfsdfsdfsdf
 
 	// iFrames won't load AMD (the iframe tests synchronously expect jQuery to be there)
 	QUnit.config.urlConfig.push( {
